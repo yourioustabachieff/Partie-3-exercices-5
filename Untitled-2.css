@@ -1,0 +1,86 @@
+
+
+
+body{
+
+
+    margin: 0;
+    padding: 0;
+   color: white;
+   background-color: rgb(211, 202, 202);
+}
+
+
+.grid > div {
+
+   
+     border: solid 1px red ;
+}
+
+
+.grid{
+
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100px 100px 100px ;
+}
+
+
+.case1{
+
+    background-color: rgb(214, 113, 113);
+
+}
+
+.case2{
+
+    background-color:rgb(214, 113, 113);
+
+}
+
+.case3{
+
+    background-color: rgb(214, 113, 113);
+
+}
+
+.case4{
+
+    background-color: rgb(214, 113, 113);
+
+}
+
+.case5{
+
+    background-color: rgb(214, 113, 113);
+
+}
+
+.case6{
+
+    background-color:rgb(214, 113, 113);
+    
+}
+
+.case7{
+
+    background-color:rgb(214, 113, 113);
+}
+
+.case8{
+ 
+    background-color:rgb(214, 113, 113);
+    
+}
+
+.case9{
+
+    background-color:rgb(214, 113, 113);
+    
+}
+
+
+
+
+
