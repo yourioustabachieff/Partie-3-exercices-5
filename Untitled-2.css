@@ -24,63 +24,62 @@ body{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100px 100px 100px ;
+    grid-template-areas:    "header header header"
+                            " sidebar main right"
+                            "sidebar footer footer";
 }
+
+
+
 
 
 .case1{
 
     background-color: rgb(214, 113, 113);
-
+    grid-area: header;
+   
 }
 
 .case2{
 
     background-color:rgb(214, 113, 113);
-
+    grid-area: sidebar;
 }
 
 .case3{
 
     background-color: rgb(214, 113, 113);
-
+    grid-area: main;
 }
 
 .case4{
 
     background-color: rgb(214, 113, 113);
-
+   grid-area: right;
 }
 
 .case5{
 
     background-color: rgb(214, 113, 113);
-
+    grid-area: footer;
 }
 
-.case6{
 
-    background-color:rgb(214, 113, 113);
+
+@media only screen and (max-width: 550px) { 
+    .grid{
+
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 100px 100px 100px ;
+        grid-template-areas: 
+        
+        "header"
+        "sidebar"
+        "main"
+        "right"
+        "footer"
+        
+        ;
+    }
     
 }
-
-.case7{
-
-    background-color:rgb(214, 113, 113);
-}
-
-.case8{
- 
-    background-color:rgb(214, 113, 113);
-    
-}
-
-.case9{
-
-    background-color:rgb(214, 113, 113);
-    
-}
-
-
-
-
-
